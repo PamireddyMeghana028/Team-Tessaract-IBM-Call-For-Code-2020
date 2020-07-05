@@ -1,0 +1,4102 @@
+{
+  "intents": [
+    {
+      "intent": "HealthDeptRecommendedActions",
+      "examples": [
+        {
+          "text": "does CDC provide protocols for labs to test covid-19?"
+        },
+        {
+          "text": "Health dept recommended actions"
+        },
+        {
+          "text": "how do I ship a specimen to the CDC lab?"
+        },
+        {
+          "text": "can CDC help my local health dept get protective gear?"
+        },
+        {
+          "text": "What should healthcare professionals and health departments do?"
+        },
+        {
+          "text": "can CDC help my local board of health"
+        }
+      ],
+      "description": "Recommended actions by from the Health Dept"
+    },
+    {
+      "intent": "HandwashingTips",
+      "examples": [
+        {
+          "text": "Steps to wash my hands"
+        },
+        {
+          "text": "When should I wash my hands"
+        },
+        {
+          "text": "when must I wash my hands"
+        },
+        {
+          "text": "when do i wash my hands"
+        },
+        {
+          "text": "should i keep washing my hands"
+        },
+        {
+          "text": "Should I use soap and water or a hand sanitizer to protect against COVID-19?"
+        },
+        {
+          "text": "how do i wash my hands correctly?"
+        },
+        {
+          "text": "is hand sanitizer effective against covid-19?"
+        },
+        {
+          "text": "will washing my hands help protect me?"
+        },
+        {
+          "text": "will frequent handwashing help?"
+        },
+        {
+          "text": "handwashing products"
+        },
+        {
+          "text": "Handwashing tips"
+        },
+        {
+          "text": "Why should wash my hands"
+        },
+        {
+          "text": "Reason to wash my hands"
+        },
+        {
+          "text": "How to wash my hands"
+        }
+      ],
+      "description": "Hand Washing Guidance"
+    },
+    {
+      "intent": "Schoolfromhome",
+      "examples": [
+        {
+          "text": "I need tips for at home learning"
+        },
+        {
+          "text": "how do I keep my child engaged in schoolwork?"
+        },
+        {
+          "text": "School from home"
+        },
+        {
+          "text": "Tips for my child's schedule when school is canceled."
+        },
+        {
+          "text": "While school’s out, how can I help my child continue learning?"
+        }
+      ],
+      "description": "Conducting remote education while school is dismissed"
+    },
+    {
+      "intent": "PrepareFamily",
+      "examples": [
+        {
+          "text": "Prepare family"
+        },
+        {
+          "text": "how do I prepare my household in case corona virus hits my community?"
+        },
+        {
+          "text": "should my household plan ahead?"
+        },
+        {
+          "text": "How can my family and I prepare for COVID-19?"
+        },
+        {
+          "text": "what goes into a family emergency plan?"
+        }
+      ],
+      "description": "Family Preparation Guidance"
+    },
+    {
+      "intent": "ChildrenAndFaceMasks",
+      "examples": [
+        {
+          "text": "can my child play outside without a mask?"
+        },
+        {
+          "text": "are facemasks recommended for children"
+        },
+        {
+          "text": "does my daughter need to wear a facemask?"
+        },
+        {
+          "text": "Children and facemasks"
+        },
+        {
+          "text": "Should children wear masks?"
+        }
+      ],
+      "description": "Guidance regarding Children wearing Facemasks"
+    },
+    {
+      "intent": "DataSource",
+      "examples": [
+        {
+          "text": "Are you sure?"
+        },
+        {
+          "text": "Is this true?"
+        },
+        {
+          "text": "Where did you learn this?"
+        },
+        {
+          "text": "Is this information accurate?"
+        },
+        {
+          "text": "How do you know this?"
+        },
+        {
+          "text": "Where do you get your information?"
+        }
+      ],
+      "description": "Information on where this bot sourced it's data"
+    },
+    {
+      "intent": "InfectedFamilyMember",
+      "examples": [
+        {
+          "text": "do I need to quarantine ill family members?"
+        },
+        {
+          "text": "my roommate has corona virus what should I do?"
+        },
+        {
+          "text": "what do i do when someone in my home gets it?"
+        },
+        {
+          "text": "Infected family member"
+        },
+        {
+          "text": "What should I do if someone in my house gets sick with COVID-19?"
+        }
+      ],
+      "description": "Guidance if a Family Member is infected"
+    },
+    {
+      "intent": "CommunitySpread",
+      "examples": [
+        {
+          "text": "Does  Corona Virus (COVID-19) spread to an entire community?"
+        },
+        {
+          "text": "What does that term community spread mean?"
+        },
+        {
+          "text": "Can community spread happen? "
+        },
+        {
+          "text": "Community Spread"
+        },
+        {
+          "text": "What is community spread?"
+        },
+        {
+          "text": "How does community spread happen? "
+        },
+        {
+          "text": "Why is community spread of this virus important?"
+        }
+      ],
+      "description": "Defining Community Spread"
+    },
+    {
+      "intent": "How_many_cases",
+      "examples": [
+        {
+          "text": "What is the stats on Corona Virus?"
+        },
+        {
+          "text": "How many cases of covid 19 have been detected?"
+        },
+        {
+          "text": "How many cases of corona virus has been detected?"
+        },
+        {
+          "text": "Total Cases so Far"
+        },
+        {
+          "text": "How many cases so far?"
+        },
+        {
+          "text": "What are the stats on COVID-19?"
+        },
+        {
+          "text": "How many cases of Covid 19 has been detected?"
+        }
+      ],
+      "description": "Stats on number of infections"
+    },
+    {
+      "intent": "EmployeeTestsPositive",
+      "examples": [
+        {
+          "text": "how to respond to possible exposure at work?"
+        },
+        {
+          "text": "someone I worked with is now sick. do I need to disinfect the office?"
+        },
+        {
+          "text": "my employee came to work then got sick. now what do I do?"
+        },
+        {
+          "text": "what if an employee tests positive after they have been reporting to work?"
+        },
+        {
+          "text": "how to disinfect the workplace after someone has been ill?"
+        }
+      ],
+      "description": "Answer what to do after employee contracts Covid-19."
+    },
+    {
+      "intent": "NegativeTestResults",
+      "examples": [
+        {
+          "text": "Negative test results"
+        },
+        {
+          "text": "Can a person test negative and later test positive for COVID-19?"
+        },
+        {
+          "text": "Can you have corona virus and still test negative?"
+        },
+        {
+          "text": "if you test negative can you still get COVID-19 later?"
+        },
+        {
+          "text": "Does a negative test mean a person does not have COVID-19?"
+        }
+      ],
+      "description": "Considerations for receiving negative test results"
+    },
+    {
+      "intent": "schoolclosing",
+      "examples": [
+        {
+          "text": "school closing"
+        },
+        {
+          "text": "how do I know if my school is closing?"
+        },
+        {
+          "text": "Will schools be dismissed if there is an outbreak in my community?"
+        },
+        {
+          "text": "why are schools closing?"
+        },
+        {
+          "text": "who gets to decide if the school will close?"
+        }
+      ],
+      "description": "School closings information"
+    },
+    {
+      "intent": "spreadviafood",
+      "examples": [
+        {
+          "text": "do I need to wash my groceries?"
+        },
+        {
+          "text": "spread via food"
+        },
+        {
+          "text": "does the virus stick to packaged food?"
+        },
+        {
+          "text": "does it spread on food packaging?"
+        },
+        {
+          "text": "Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?"
+        }
+      ],
+      "description": "Virus spread from food or food packaging"
+    },
+    {
+      "intent": "DocumentEmployeeIllness",
+      "examples": [
+        {
+          "text": "do I need to prove I am covid free to return to work?"
+        },
+        {
+          "text": "Does an employee need to bring a doctor's note ?"
+        },
+        {
+          "text": "do I need to get a doctor's excuse if I test positive?"
+        },
+        {
+          "text": "can my employer require a doctor's note?"
+        },
+        {
+          "text": "can I go back to work without a doctor's note?"
+        }
+      ],
+      "description": "Answer employee documentation of disease ."
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "cya"
+        },
+        {
+          "text": "see ya later"
+        },
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "talk to you later"
+        },
+        {
+          "text": "thanks watson"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "then bye"
+        },
+        {
+          "text": "toodles"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "ttyl"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "bye im going to play a game"
+        },
+        {
+          "text": "i am done with you"
+        },
+        {
+          "text": "o thank u"
+        },
+        {
+          "text": "ok thanks"
+        },
+        {
+          "text": "ok thank you for your time"
+        },
+        {
+          "text": "ok thank you"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "gtg go right now ok"
+        },
+        {
+          "text": "got to go bye nice time talking to you"
+        },
+        {
+          "text": "goodbye joto"
+        },
+        {
+          "text": "good bye hohoho"
+        },
+        {
+          "text": "dont need your help at all"
+        },
+        {
+          "text": "done"
+        },
+        {
+          "text": "be quiet robot"
+        },
+        {
+          "text": "thanks for your help"
+        },
+        {
+          "text": "shut up"
+        },
+        {
+          "text": "youre welcome now bye"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "thank you for the info"
+        },
+        {
+          "text": "sorry got to go"
+        },
+        {
+          "text": "take it easy"
+        },
+        {
+          "text": "take care"
+        },
+        {
+          "text": "soon"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "signing out"
+        },
+        {
+          "text": "signing off"
+        },
+        {
+          "text": "should go"
+        },
+        {
+          "text": "should be going"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "im leaving"
+        },
+        {
+          "text": "have a good one"
+        },
+        {
+          "text": "gtg"
+        },
+        {
+          "text": "gotta run"
+        },
+        {
+          "text": "gotta go"
+        },
+        {
+          "text": "gday"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "go"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "catch ya later"
+        },
+        {
+          "text": "bye now"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "au revoir"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "adieu"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "g'day"
+        },
+        {
+          "text": "i'm leaving"
+        },
+        {
+          "text": "no problem"
+        },
+        {
+          "text": "laters"
+        },
+        {
+          "text": "leave"
+        },
+        {
+          "text": "logging off"
+        },
+        {
+          "text": "my time is up"
+        },
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "out of time"
+        },
+        {
+          "text": "over and out"
+        },
+        {
+          "text": "run"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "see ya soon"
+        }
+      ]
+    },
+    {
+      "intent": "HigherRiskPopulations",
+      "examples": [
+        {
+          "text": "Are older adults more likely to contract the disease?"
+        },
+        {
+          "text": "What does immunocompromised mean? "
+        },
+        {
+          "text": "I have underlying health issues."
+        },
+        {
+          "text": "I have a chronic illness."
+        },
+        {
+          "text": "I am over the age of 60."
+        },
+        {
+          "text": "How does this impact the elderly? "
+        },
+        {
+          "text": "Do seniors need to take extra precautions?"
+        },
+        {
+          "text": "Can Millennials get it? "
+        },
+        {
+          "text": "Does  Corona Virus (COVID-19) affect older people more?"
+        },
+        {
+          "text": "Who is at higher risk for serious illness from COVID-19?"
+        },
+        {
+          "text": "Higher risk populations"
+        },
+        {
+          "text": "How does it affect immunocompromised people? "
+        },
+        {
+          "text": "Can Gen-X get sick? "
+        },
+        {
+          "text": "Does Gen-Y get it?"
+        },
+        {
+          "text": "Why do Boomers get sick? "
+        },
+        {
+          "text": "Who is dying? "
+        },
+        {
+          "text": "Why are people with pre-existing conditions more at risk?"
+        },
+        {
+          "text": "Are all the old people going to die? "
+        }
+      ],
+      "description": "Identify which populations are at higher risk"
+    },
+    {
+      "intent": "Stigmatizedgroups",
+      "examples": [
+        {
+          "text": "Why might someone blame or avoid individuals and groups (create stigma) because of COVID-19?"
+        },
+        {
+          "text": "What causes stereotyping and blame?"
+        },
+        {
+          "text": "is the pandemic causing discrimination against Chinese people?"
+        },
+        {
+          "text": "are Asian people being unfarely blamed for corona virus?"
+        },
+        {
+          "text": "Stigmatized groups"
+        }
+      ],
+      "description": "About racial discrimination or shaming"
+    },
+    {
+      "intent": "WorkplaceSocialDistancing",
+      "examples": [
+        {
+          "text": "how do I rearrange my workplace for social distance?"
+        },
+        {
+          "text": "How can my workplace practice social distancing?"
+        },
+        {
+          "text": "how can we adjust the business for social distancing?"
+        },
+        {
+          "text": "how do I practice social distancing at work?"
+        },
+        {
+          "text": "any recommendations for workplace social distancing?"
+        }
+      ],
+      "description": "Answer how to implement safe distancing guidelines at work."
+    },
+    {
+      "intent": "Wherediditstart",
+      "examples": [
+        {
+          "text": "Where did corona virus originate from?"
+        },
+        {
+          "text": "Where did it start"
+        },
+        {
+          "text": "What is the source of the virus?"
+        },
+        {
+          "text": "which location did corona virus start from?"
+        }
+      ],
+      "description": "Handle questions about the origins of the virus in humans"
+    },
+    {
+      "intent": "StayingHomeWhenSick",
+      "examples": [
+        {
+          "text": "what symptoms should make me stay home from work"
+        },
+        {
+          "text": "should I stay home sick even if I don't feel very bad?"
+        },
+        {
+          "text": "should I stay home if I don't feel well?"
+        },
+        {
+          "text": "I need to work even though I'm not feeling well"
+        },
+        {
+          "text": "what if an employee shows respiratory symptoms at work?"
+        }
+      ],
+      "description": "Answer what to do to separate employees showing symptoms from co-workers and customers."
+    },
+    {
+      "intent": "VaccineUpdates",
+      "examples": [
+        {
+          "text": "can you give me vaccine updates"
+        },
+        {
+          "text": "update about vaccines"
+        },
+        {
+          "text": "vaccine updates"
+        },
+        {
+          "text": "vaccine update"
+        },
+        {
+          "text": "injection update"
+        },
+        {
+          "text": "medicine updates"
+        }
+      ],
+      "description": "Gives update about vaccines"
+    },
+    {
+      "intent": "AttendingFuneral",
+      "examples": [
+        {
+          "text": "Can I go to a funeral of someone who died of  Corona Virus (COVID-19)?"
+        },
+        {
+          "text": "Can I go to a funeral? "
+        },
+        {
+          "text": "Should I avoid funerals?"
+        },
+        {
+          "text": "Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?"
+        },
+        {
+          "text": "Are funerals safe? "
+        }
+      ],
+      "description": "Funeral attendance guidance"
+    },
+    {
+      "intent": "CriticalBusinesses",
+      "examples": [
+        {
+          "text": "Is my workplace a critical business?"
+        },
+        {
+          "text": "which businesses are thought of as critical?"
+        },
+        {
+          "text": "How do I find out if my business is considered essential?"
+        },
+        {
+          "text": "Which businesses are deemed critical?"
+        },
+        {
+          "text": "How do I know if my business is considered critical?"
+        }
+      ],
+      "description": "Answer what to do after employee contracts Covid-19."
+    },
+    {
+      "intent": "Immunity",
+      "examples": [
+        {
+          "text": "immunity increase"
+        },
+        {
+          "text": "How do I increase my immunity"
+        },
+        {
+          "text": "increase immunity"
+        },
+        {
+          "text": "Food to be consumed to increase immunity"
+        }
+      ],
+      "description": "Habits to increase immunity"
+    },
+    {
+      "intent": "AnimalContact",
+      "examples": [
+        {
+          "text": "can I get this from my dog?"
+        },
+        {
+          "text": "Should I avoid contact with pets or other animals if I am sick with COVID-19?"
+        },
+        {
+          "text": "do dogs and cats get sick from corona virus?"
+        },
+        {
+          "text": "can my dog catch corona virus?"
+        },
+        {
+          "text": "Animal contact"
+        },
+        {
+          "text": "can I get covid-19 from my pet?"
+        },
+        {
+          "text": "can I get this from my cat?"
+        }
+      ],
+      "description": "Human - Animal interaction guidance"
+    },
+    {
+      "intent": "Symptoms",
+      "examples": [
+        {
+          "text": "is fever a sign of this infection?"
+        },
+        {
+          "text": "does covid-19 cause coughing?"
+        },
+        {
+          "text": "does covid-19 cause fever?"
+        },
+        {
+          "text": "What are the symptoms and complications that COVID-19 can cause?"
+        },
+        {
+          "text": "what symptoms should I watch for?"
+        },
+        {
+          "text": "Symptoms"
+        }
+      ],
+      "description": "General info on symptoms of covid-19 disease"
+    },
+    {
+      "intent": "ProtectingChildren",
+      "examples": [
+        {
+          "text": "How can I protect my child from COVID-19 infection?"
+        },
+        {
+          "text": "is handwashing important for children?"
+        },
+        {
+          "text": "Protecting children"
+        },
+        {
+          "text": "should I disinfect my kid's toys?"
+        },
+        {
+          "text": "what will protect my kids from getting the infection?"
+        }
+      ],
+      "description": "Guidance for keeping children protected"
+    },
+    {
+      "intent": "ExposedEmployees",
+      "examples": [
+        {
+          "text": "should i stay home from work if I've been in contact with a covid patient?"
+        },
+        {
+          "text": "can i return to work even though my housemate has covid?"
+        },
+        {
+          "text": "My spouse had covid. Can I go back to work anyway?"
+        },
+        {
+          "text": "how long should I stay home from work after being near someone with covid?"
+        },
+        {
+          "text": "should my employees stay home from work if they are exposed to covid?"
+        }
+      ],
+      "description": "Ask about employee safety after an exposure"
+    },
+    {
+      "intent": "RiskToPets",
+      "examples": [
+        {
+          "text": "Risk to pets"
+        },
+        {
+          "text": "Should I be concerned about pets or other animals and COVID-19?"
+        },
+        {
+          "text": "Is there any danger to pets?"
+        },
+        {
+          "text": "Can corona virus affect the pets?"
+        },
+        {
+          "text": "Are my pets in risk?"
+        }
+      ],
+      "description": "Guidance on potential risk to Pets"
+    },
+    {
+      "intent": "EmployeeShowsSymptoms",
+      "examples": [
+        {
+          "text": "what if someone i work with is sick?"
+        },
+        {
+          "text": "if an employee seems like they might have covid"
+        },
+        {
+          "text": "how do I disinfect if a sick person showed up at work?"
+        },
+        {
+          "text": "What should I do if an employee shows symptoms of Covid-19?"
+        },
+        {
+          "text": "do I need to quarantine the area where a sick person worked?"
+        }
+      ],
+      "description": "Answer what to do when an employee shows symptoms of Covid-19."
+    },
+    {
+      "intent": "Prevention",
+      "examples": [
+        {
+          "text": "How do I take prevention"
+        },
+        {
+          "text": "How to prevent my self From Corona"
+        },
+        {
+          "text": "Preventions to be taken"
+        },
+        {
+          "text": "prevention"
+        },
+        {
+          "text": "How to prevent myself from corona"
+        }
+      ],
+      "description": "Answers how to take prevention "
+    },
+    {
+      "intent": "Testing",
+      "examples": [
+        {
+          "text": "can my doctor test me if I start feeling sick?"
+        },
+        {
+          "text": "who should get tested?"
+        },
+        {
+          "text": "Should I be tested for COVID-19?"
+        },
+        {
+          "text": "should I head to the doctor if I show symptoms?"
+        },
+        {
+          "text": "Testing"
+        }
+      ],
+      "description": "When, where, how of getting yourself tested"
+    },
+    {
+      "intent": "CDC_Response",
+      "examples": [
+        {
+          "text": "How is CDC helping Americans prepare?"
+        },
+        {
+          "text": "CDC response"
+        },
+        {
+          "text": "Does CDC work to protect public health?"
+        },
+        {
+          "text": "What is CDC doing about COVID-19?"
+        },
+        {
+          "text": "What is the center for disease control doing to help?"
+        }
+      ],
+      "description": "Info about the CDC"
+    },
+    {
+      "intent": "HowDoesItSpread",
+      "examples": [
+        {
+          "text": "how did the virus spread from China?"
+        },
+        {
+          "text": "does the corona virus spread easily?"
+        },
+        {
+          "text": "is corona virus contagious?"
+        },
+        {
+          "text": "How does the virus spread?"
+        },
+        {
+          "text": "How does it spread"
+        }
+      ],
+      "description": "Info on how COVID Spreads"
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "yello"
+        },
+        {
+          "text": "heya"
+        },
+        {
+          "text": "helo"
+        },
+        {
+          "text": "Olla"
+        },
+        {
+          "text": "hey there"
+        },
+        {
+          "text": "feeling a bit low"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hello watson"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "aloha"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "hola"
+        }
+      ]
+    },
+    {
+      "intent": "MealsForStudents",
+      "examples": [
+        {
+          "text": "While school’s out, will kids have access to meals?"
+        },
+        {
+          "text": "how are students on school lunch plans getting their meals?"
+        },
+        {
+          "text": "Meals for students"
+        },
+        {
+          "text": "are schools continuing to serve school lunch plans even if classes are closed?"
+        },
+        {
+          "text": "will school students be able to get their free meals?"
+        }
+      ],
+      "description": "Info regarding school and student meals"
+    },
+    {
+      "intent": "DisinfectingTheWorkplace",
+      "examples": [
+        {
+          "text": "how do we keep the customer area disinfected?"
+        },
+        {
+          "text": "any cleaning recommendations?"
+        },
+        {
+          "text": "what areas do I need to disinfect?"
+        },
+        {
+          "text": "How do I clean and disinfect machinery or equipment?"
+        },
+        {
+          "text": "how much extra cleaning should I do?"
+        }
+      ],
+      "description": "Answer how to disinfect work surfaces and equipment."
+    },
+    {
+      "intent": "Symptomsinchildren",
+      "examples": [
+        {
+          "text": "Symptoms in children"
+        },
+        {
+          "text": "Are the symptoms of COVID-19 different in children than in adults?"
+        },
+        {
+          "text": "do children react differently to the virus than adults do?"
+        },
+        {
+          "text": "do kids get different symptoms?"
+        },
+        {
+          "text": "what are the symptoms in children?"
+        }
+      ],
+      "description": "Signs and symptoms in children and differences from adults"
+    },
+    {
+      "intent": "News_Corona_Virus",
+      "examples": [
+        {
+          "text": "NEWS"
+        },
+        {
+          "text": "whats happening"
+        },
+        {
+          "text": "What is in the NEWS?"
+        },
+        {
+          "text": "latest updates"
+        },
+        {
+          "text": "whats happening around the wold"
+        },
+        {
+          "text": "Whats happening?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Wearingfacemasks",
+      "examples": [
+        {
+          "text": "is it necessary to wear mask"
+        },
+        {
+          "text": "why must one wear mask"
+        },
+        {
+          "text": "Who should wear face masks"
+        },
+        {
+          "text": "Should I use a face mask when in public?"
+        },
+        {
+          "text": "Does CDC recommend the use of facemask to prevent COVID-19?"
+        },
+        {
+          "text": "Do I need to wear a face mask?"
+        },
+        {
+          "text": "Do face masks do anything?"
+        },
+        {
+          "text": "Someone in my household is sick should we wear masks at home?"
+        },
+        {
+          "text": "What do face masks do? "
+        },
+        {
+          "text": "Wearing face masks"
+        },
+        {
+          "text": "Should my child wear a face mask?"
+        },
+        {
+          "text": "Should I wear a face mask?"
+        },
+        {
+          "text": "reason to wear a face mask"
+        },
+        {
+          "text": "when should a person wear mask"
+        }
+      ],
+      "description": "General facemask questions"
+    },
+    {
+      "intent": "Whythename",
+      "examples": [
+        {
+          "text": "Why is the disease being called coronavirus disease 2019, COVID-19?"
+        },
+        {
+          "text": "Why the name"
+        },
+        {
+          "text": "why is covid-19 the name for this disease?"
+        },
+        {
+          "text": "is covid an abbreviation?"
+        },
+        {
+          "text": "why was covid-19 used to name this disease?"
+        },
+        {
+          "text": "is corona virus the same as covid-19?"
+        }
+      ],
+      "description": "Answer how the name for this virus and disease arose."
+    },
+    {
+      "intent": "CareerOptions",
+      "examples": [
+        {
+          "text": "Career options during crisis"
+        },
+        {
+          "text": "Different career options during pandemic"
+        },
+        {
+          "text": "Different career options during covid-19 pandemic"
+        },
+        {
+          "text": "What are the career options during covid-19"
+        },
+        {
+          "text": "career options"
+        },
+        {
+          "text": "Different career options during this pandemic"
+        }
+      ],
+      "description": "Career options"
+    },
+    {
+      "intent": "ReportingToWork",
+      "examples": [
+        {
+          "text": "I'm supposed to work but my child's school is canceled"
+        },
+        {
+          "text": "Reporting to work"
+        },
+        {
+          "text": "Should I go to work if there is an outbreak in my community?"
+        },
+        {
+          "text": "what are my work from home options?"
+        },
+        {
+          "text": "will my office be closed?"
+        }
+      ],
+      "description": "Guidance on going in to work"
+    },
+    {
+      "intent": "RiskToChildren",
+      "examples": [
+        {
+          "text": "Can corona virus infect an infant?"
+        },
+        {
+          "text": "do children catch covid-19?"
+        },
+        {
+          "text": "Risk to children"
+        },
+        {
+          "text": "Are children at higher risk of getting sick?"
+        },
+        {
+          "text": "Are kids at increased risk of infection?"
+        },
+        {
+          "text": "What is the risk of my child becoming sick with COVID-19?"
+        }
+      ],
+      "description": "Guidance on potential risk to Children"
+    },
+    {
+      "intent": "spreadinquarantine",
+      "examples": [
+        {
+          "text": "what is a quarantine?"
+        },
+        {
+          "text": "does putting infected people into quarantine help?"
+        },
+        {
+          "text": "what is the incubation period of this corona virus?"
+        },
+        {
+          "text": "Can someone who has been quarantined for COVID-19 spread the illness to others?"
+        },
+        {
+          "text": "spread in quarantine"
+        },
+        {
+          "text": "does quarantining people stop the spread of corona virus?"
+        }
+      ],
+      "description": "does quarantining people stop the spread of corona virus?"
+    },
+    {
+      "intent": "AdditionalWorkplaceHygiene",
+      "examples": [
+        {
+          "text": "what can I do to decrease the spread of disease in my workplace?"
+        },
+        {
+          "text": "any additional tips to decrease spread?"
+        },
+        {
+          "text": "what can I do at the office to decrease spread?"
+        },
+        {
+          "text": "How do I revise my workspace to reduce transmission risks?"
+        },
+        {
+          "text": "do I need to provide PPE to customers?"
+        }
+      ],
+      "description": "Answer what to do and provide to decrease spread."
+    },
+    {
+      "intent": "warmerweather",
+      "examples": [
+        {
+          "text": "Will warm weather stop the outbreak of COVID-19?"
+        },
+        {
+          "text": "will the virus go away during warmer months?"
+        },
+        {
+          "text": "does it get less contagious in the summer?"
+        },
+        {
+          "text": "i heard the spread will slow down in warmer months"
+        },
+        {
+          "text": "warmer weather"
+        }
+      ],
+      "description": "Does warmer weather or summer weather have an effect on the virus or the pandemic"
+    },
+    {
+      "intent": "WhatisCovid",
+      "examples": [
+        {
+          "text": "Where did  Corona Virus (COVID-19) appear?"
+        },
+        {
+          "text": "When did  Corona Virus (COVID-19) appear?"
+        },
+        {
+          "text": "What is SARS-CoV-2?"
+        },
+        {
+          "text": "covid 19"
+        },
+        {
+          "text": "What is a novel coronavirus?"
+        },
+        {
+          "text": "When did  Corona Virus (COVID-19) start?"
+        },
+        {
+          "text": "what is carona virus?"
+        },
+        {
+          "text": "What is Covid"
+        },
+        {
+          "text": "What is COVID 19?"
+        },
+        {
+          "text": "Where was  Corona Virus (COVID-19) first spotted."
+        },
+        {
+          "text": "Why did  Corona Virus (COVID-19) spread?"
+        },
+        {
+          "text": "How did the  Corona Virus (COVID-19) spread from China?"
+        },
+        {
+          "text": "Carona Virus"
+        }
+      ],
+      "description": "Description and definition of COVID19"
+    },
+    {
+      "intent": "StayingSafeAtWork",
+      "examples": [
+        {
+          "text": "How do I keep employees who interact with customers safe?"
+        }
+      ],
+      "description": "Answer how to safely work around customers."
+    },
+    {
+      "intent": "PersonToPerson",
+      "examples": [
+        {
+          "text": "How does  Corona Virus (COVID-19) spread?"
+        },
+        {
+          "text": "person to person"
+        },
+        {
+          "text": "Who can I get it from?"
+        },
+        {
+          "text": "Can someone who has had COVID-19 spread the illness to others?"
+        },
+        {
+          "text": "Can I catch it from my friend?"
+        },
+        {
+          "text": "Can  Corona Virus (COVID-19) spread from person-to-person?"
+        },
+        {
+          "text": "Why is  Corona Virus (COVID-19) spreading between people?"
+        },
+        {
+          "text": "Why is it so contagious?"
+        }
+      ],
+      "description": "Info on how Coronavirus spreads person to person"
+    },
+    {
+      "intent": "DisinfectingSurfaces",
+      "examples": [
+        {
+          "text": "how to disinfect home"
+        },
+        {
+          "text": "how to disinfect objects"
+        },
+        {
+          "text": "disinfecting objects?"
+        },
+        {
+          "text": "what products are best at disinfecting?"
+        },
+        {
+          "text": "Where do i need to disinfect?"
+        },
+        {
+          "text": "Disinfecting surfaces"
+        },
+        {
+          "text": "Do I need to clean with bleach?"
+        },
+        {
+          "text": "how should i disinfect my home?"
+        },
+        {
+          "text": "How do I clean my home to remove virus molecules"
+        },
+        {
+          "text": "What cleaning products should I use to protect against COVID-19?"
+        },
+        {
+          "text": "How to wash vegetables and fruits"
+        },
+        {
+          "text": "how to wash fruits"
+        },
+        {
+          "text": "how to wash vegetables"
+        },
+        {
+          "text": "how to disinfect vegetables"
+        },
+        {
+          "text": "how to disinfect fruits"
+        },
+        {
+          "text": "Cleaning fruits and vegetables"
+        }
+      ],
+      "description": "Disinfection Guidance"
+    },
+    {
+      "intent": "ETextbooks",
+      "examples": [
+        {
+          "text": "Where can I find free text books online"
+        },
+        {
+          "text": "textbooks online"
+        },
+        {
+          "text": "Where can I get E-Books"
+        },
+        {
+          "text": "books online"
+        }
+      ],
+      "description": "Gives websites for etextbook"
+    },
+    {
+      "intent": "PreparingChildren",
+      "examples": [
+        {
+          "text": "what should I tell my child about this pandemic?"
+        },
+        {
+          "text": "how do I keep my kids from worrying about the virus?"
+        },
+        {
+          "text": "My child is stressed about the crisis how can I help?"
+        },
+        {
+          "text": "How do I prepare my children in case of COVID-19 outbreak in our community?"
+        },
+        {
+          "text": "Preparing children"
+        }
+      ],
+      "description": "Guidance for calming and protecting children"
+    },
+    {
+      "intent": "ProductsFromChina",
+      "examples": [
+        {
+          "text": "Products from China"
+        },
+        {
+          "text": "should i stop buying products from China?"
+        },
+        {
+          "text": "are packages from China infected?"
+        },
+        {
+          "text": "is it safe to buy Chinese products?"
+        },
+        {
+          "text": "Am I at risk for COVID-19 from a package or products shipping from China?"
+        }
+      ],
+      "description": "Guidance regarding packages from China"
+    },
+    {
+      "intent": "ReduceFamilyRisk",
+      "examples": [
+        {
+          "text": "lower my family's risk of getting sick"
+        },
+        {
+          "text": "Reduce family risk"
+        },
+        {
+          "text": "what are the top tips to keep my family from catching it?"
+        },
+        {
+          "text": "What steps can my family take to reduce our risk of getting COVID-19?"
+        },
+        {
+          "text": "What should I have my family do to keep from getting sick?"
+        }
+      ],
+      "description": "Guidance on reducing risk to your family"
+    },
+    {
+      "intent": "DisinfectionofHomeWithSickPeople",
+      "examples": [
+        {
+          "text": "Disinfecting home with person with corona"
+        },
+        {
+          "text": "how to clean home if I have person with corona"
+        },
+        {
+          "text": "How to clean if I have sick patient at my home"
+        },
+        {
+          "text": "How to disinfect my home if I have sick patient"
+        },
+        {
+          "text": "How to disinfect if I have sick patient at home"
+        },
+        {
+          "text": "how to clean home if I have person with covid"
+        },
+        {
+          "text": "Disinfecting home with sick patient at home"
+        },
+        {
+          "text": "how to clean home if I have person with covid-19"
+        }
+      ],
+      "description": "Info about how to clean and disinfect your home when you have a sick person in your home"
+    },
+    {
+      "intent": "WorkplaceFaceCoverings",
+      "examples": [
+        {
+          "text": "do I need a special mask for work?"
+        },
+        {
+          "text": "Do we need to provide masks for employees?"
+        },
+        {
+          "text": "do I need to wear a mask at work?"
+        },
+        {
+          "text": "are face coverings required at work?"
+        },
+        {
+          "text": "should customers in my workplace have on masks?"
+        }
+      ],
+      "description": "Answer personal protective gear questions."
+    },
+    {
+      "intent": "ChildrenSocializing",
+      "examples": [
+        {
+          "text": "While school’s out, can my child hang out with their friends?"
+        },
+        {
+          "text": "Is social distancing important for kids too?"
+        },
+        {
+          "text": "While school is out can my child go to sports practice?"
+        },
+        {
+          "text": "Children socializing"
+        },
+        {
+          "text": "do kids need to limit in person contact?"
+        },
+        {
+          "text": "Can my kid still go to group activities?"
+        }
+      ],
+      "description": "Child Socialization guidance"
+    },
+    {
+      "intent": "Helpline",
+      "examples": [
+        {
+          "text": "What is the helpline"
+        },
+        {
+          "text": "can I know helpline number"
+        },
+        {
+          "text": "Helpline number"
+        },
+        {
+          "text": "helpline"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "wearingmask",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "when",
+          "synonyms": [
+            "whenever",
+            "time",
+            "while",
+            "wherever",
+            "moment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "who",
+          "synonyms": [
+            "people",
+            "folks",
+            "individuals",
+            "person",
+            "citizens",
+            "peoples",
+            "others",
+            "anybody"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "how",
+          "synonyms": [
+            "step",
+            "steps",
+            "ways",
+            "way",
+            "methods",
+            "method"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "why",
+          "synonyms": [
+            "reason",
+            "need",
+            "reasons",
+            "needed",
+            "necessary",
+            "require",
+            "want",
+            "required",
+            "necessitate",
+            "wanna",
+            "wanted",
+            "needs",
+            "wants",
+            "gotta",
+            "requires",
+            "must"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "@sys-number",
+          "patterns": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "US Phone pattern",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "DisinfecingSurfaces",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Fruits and Vegetables",
+          "synonyms": [
+            "apple",
+            "apples",
+            "potato",
+            "potatoes",
+            "pears",
+            "peaches",
+            "strawberries",
+            "apricots",
+            "carrots",
+            "cauliflower",
+            "cherries",
+            "tomato",
+            "plums",
+            "tomatoes",
+            "prunes",
+            "cabbage",
+            "strawberry",
+            "raspberries",
+            "blueberries",
+            "nectarines",
+            "radishes",
+            "broccoli",
+            "onions",
+            "Vegetables",
+            "fruits",
+            "blackberries",
+            "turnips",
+            "onion",
+            "kale",
+            "blueberry",
+            "pear",
+            "asparagus",
+            "beets",
+            "parsnips",
+            "spinach",
+            "veggies",
+            "raspberry",
+            "sprouts",
+            "beet",
+            "cabbages",
+            "vegetable",
+            "veg",
+            "coleslaw",
+            "legumes",
+            "leeks",
+            "veggie",
+            "veggiess"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "home",
+          "synonyms": [
+            "homes",
+            "house",
+            "household",
+            "residential",
+            "interior",
+            "houses",
+            "residences",
+            "apartment",
+            "bedroom",
+            "interiors",
+            "apartments",
+            "housing",
+            "room",
+            "penthouse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Objects",
+          "synonyms": [
+            "object",
+            "objets",
+            "elements",
+            "items",
+            "goods",
+            "things",
+            "property",
+            "articles",
+            "properties",
+            "stuff",
+            "table",
+            "door",
+            "something",
+            "tables",
+            "doors"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "school_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "preschool",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "college",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grade school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "middle school",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "book",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "book",
+          "synonyms": [
+            "books",
+            "textbook",
+            "ebook",
+            "read",
+            "textbooks",
+            "reading",
+            "ebooks",
+            "reread",
+            "literature",
+            "handbook",
+            "schoolbooks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Courses",
+          "synonyms": [
+            "Free Courses",
+            "course",
+            "training",
+            "trainings",
+            "lessons"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yep",
+            "you betcha",
+            "you bet",
+            "yes",
+            "yeah",
+            "why not",
+            "sure",
+            "please",
+            "ok",
+            "let's do it",
+            "go for it",
+            "definitely"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "not now",
+            "not at this time",
+            "nope",
+            "i think not",
+            "dont think so",
+            "don't think so",
+            "definitely not"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Handwash",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "why",
+          "synonyms": [
+            "reason",
+            "need",
+            "reasons",
+            "needed",
+            "necessary",
+            "required",
+            "essential",
+            "needing",
+            "needs",
+            "require",
+            "important",
+            "necessity"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "when",
+          "synonyms": [
+            "whenever",
+            "time",
+            "while",
+            "everytime",
+            "after",
+            "again"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "how",
+          "synonyms": [
+            "what",
+            "exactly",
+            "way",
+            "steps",
+            "ways",
+            "step"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "coronavirus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coronavirus",
+          "synonyms": [
+            "corona",
+            "virus check",
+            "virus",
+            "COVID-19",
+            "COVID",
+            "coronavirus",
+            "corona-virus",
+            "carona-virus",
+            "Carona",
+            "Korona",
+            "Korona-virus",
+            "COVID19"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "empire state building",
+          "synonyms": [
+            "emprire state",
+            "empire state"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grand central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "times square",
+          "synonyms": [
+            "times sqaure",
+            "time square",
+            "time sqaure"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/meghanapamireddy028%40gmail.com_dev/default/my-covid-action.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I’m CoBot . Hope you're safe and healthy, I'm here to give you information about COVID-19,Career options and provide websites for textbooks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11748",
+      "context": {},
+      "disabled": true,
+      "conditions": "#greeting",
+      "dialog_node": "response_2_1593375370393"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I could not find any information on that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1585096899249",
+      "previous_sibling": "response_9_1585096897994"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1585096079466",
+      "variable": "$location",
+      "dialog_node": "slot_9_1585096776672",
+      "previous_sibling": "response_3_1585096899249"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are the stats for <?$location?> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "$location_stats.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "$location_stats",
+      "dialog_node": "response_9_1585096897994"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like data for specific location?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1585096407905",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1585096407991",
+      "previous_sibling": "handler_3_1585096407991"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1585096407905",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_3_1585096407991"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "These are the steps to wash fruits and vegetables "
+              },
+              {
+                "text": "Here Are 5 Tips To Wash Fruits And Vegetables Properly Before Consumption: \n1. Before washing produce, wash your hands\nThe importance of washing hands to prevent the spread of Covid-19 cannot be emphasised enough. Even when you are going to rinse vegetables, you must ensure that your hands are clean. Wash them for at least 20 seconds prior to cleaning fruit and vegetable produce. It is a good idea to wash them afterwards too, as suggested by the FDA.\n\n2. Rinse your produce well in running water\n\nAll the fruits and vegetable produce that is purchased from the market can be rinsed in running water, followed by rubbing with hands. This is all that is needed to clean a majority of vegetables. The FDA recommends, \"Rinse produce BEFORE you peel it, so dirt and bacteria aren't transferred from the knife onto the fruit or vegetable.\"\n\n(Also Read:<a href=\"https://food.ndtv.com/food-drinks/should-you-soak-fruits-in-water-heres-the-answer-1911705\" target=\"_blank\" >Should You Soak Fruits In Water? Here's The Answer</a>)\n\nfctmnm18Rinsing fruits and vegetables in water is sufficient. \n3. Do not use soap or any detergent\n\nThe FDA says it is a complete myth that soap, detergent or any special liquid is required to clean produce. \"Gently rub produce while holding under plain running water. There's no need to use soap or a produce wash.\" If damage or bruising occurs before eating or handling, it is best to cut away the damaged areas before preparing or eating.\n\n4. Use a brush or sponge if necessary\n\nWhile cleaning root vegetables like potatoes or carrots, a vegetable brush or sponge should be used to ensure all dirt is removed. \"Use a clean vegetable brush to scrub firm produce such as melons and cucumbers,\" recommends FDA.\n\n(Also Read: <a href=\"https://food.ndtv.com/food-drinks/how-to-wash-your-greens-5-expert-tips-to-clean-your-leafy-vegetables-1762585\" target=\"_blank\">How To Wash Your Greens: 5 Expert Tips To Clean Your Leafy Vegetables</a>)\n\n\n5. Certain vegetables and fruits require extra care\n\nBerries require extra attention during the cleaning process. Place them in a colander and rinse them under running water to remove pathogens. Similarly, lettuce and leafy greens should be placed in a bowl of cold water. FDA also suggests removing the outermost leaves of a head of lettuce or cabbage, and then drying them with a paper towel for best results.\n\nThere are certain guidelines that the FDA prescribes apart from these, such as - we must always try and choose produce that isn't bruised or damaged. Further, make sure that pre-cut items, such as bags of lettuce or watermelon slices, are either refrigerated, or kept on ice, both in the store and at home. The FSSAI also tweeted with some recommendations for food safety. \n(Also Read: <a href=\"https://food.ndtv.com/food-drinks/dont-wash-chicken-before-cooking-it-warns-food-standards-agency-695445\" target=\"_blank\">Don't Wash Chicken Before Cooking it, Warns Food Standards Agency</a>)\n\nMeanwhile, it is a good idea to cook your food thoroughly before consuming. \"Keep the raw and cooked food separate, especially raw meat and fresh produce,\" says the World Health Organisation (WHO) in an article on food and nutrition tips during quarantine. WHO recommends consuming a minimum of 400 g (i.e. 5 portions) of fruits and vegetables per day, and reiterated that we must work towards ensuring that the foods we consume are safe and healthy.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_11772",
+      "conditions": "@DisinfecingSurfaces:(Fruits and Vegetables)",
+      "dialog_node": "response_6_1593328971093",
+      "previous_sibling": "response_8_1593318638497"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "With the current outbreak of COVID-19, frequently cleaning and disinfecting your home is essential for keeping yourself and your family safe and healthy.   While person-to-person transmission of COVID-19 poses a much greater risk than transmission via surfaces, the Centers for Disease Control (CDC) recommends cleaning and disinfecting high-touch surfaces at least once a day, even if you’re not leaving the house. That’s because anytime items or people come in and out of your home, there’s some possibility of exposure.  A recent study found that the novel coronavirus can remain in the air for up to three hours and live on surfaces such as cardboard for up to 24 hours, and plastic and stainless steel for up to three days."
+              },
+              {
+                "text": "Disinfecting Against COVID-19\nYou don’t need to clean your house from top to bottom each day, but you should focus on disinfecting the areas that are hot-spots for germs. These are the most important items to disinfect every day:\n\n1.Cupboard and drawer knobs/pulls\n2.Faucets\n3.Kitchen and bathroom counters\n4.Toilets, especially the seat and handle\n5.Refrigerator, dishwasher, oven and microwave handles\n6.Remote controls and game controllers\n7.Cell phones, tablets and other mobile devices\n8.Computer keyboards and mice\n9.Door knobs/handles\n10.Table surfaces\n11.Staircase railings\n12.Light switches/switch plates"
+              },
+              {
+                "text": "Video:\n<a href=\"https://www.youtube.com/watch?v=PBsIHjc3ABc\" target=\"_blank\">Cleaning Expert Teaches You How to Disinfect Your Home</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11772",
+      "conditions": "@DisinfecingSurfaces:home",
+      "dialog_node": "response_1_1593370826919",
+      "previous_sibling": "response_6_1593328971093"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clean and disinfect frequently touched surfaces such as tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks. If surfaces are dirty, clean them using detergent or soap and water prior to disinfection. To disinfect, most common EPA-registered household disinfectants will work."
+              },
+              {
+                "text": "<a href=\"https://www.cdc.gov/flu/school/cleaning.htm#:~:text=Know%20the%20difference%20between%20cleaning,physically%20remove%20germs%20from%20surfaces.&text=Disinfecting%20works%20by%20using%20chemicals%20to%20kill%20germs%20on%20surfaces%20or%20objects.\" target=\"_blank\">How to clean and disinfect the surfaces</a>"
+              },
+              {
+                "text": "Video to help you\n  <a href=\"https://www.youtube.com/watch?v=PBsIHjc3ABc\" target=\"_blank\">How to disinfect surfaces</a>"
+              },
+              {
+                "text": "The do's and don'ts while disinfecting the surfaces\n  <a href=\"https://www.youtube.com/watch?v=vjxJMSvulyc\" target=\"_blank\">The Do's And Don'ts Of Disinfecting Your Home</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11772",
+      "context": {},
+      "conditions": "@DisinfecingSurfaces:Objects",
+      "dialog_node": "response_8_1593318638497"
+    },
+    {
+      "type": "standard",
+      "title": "How Many Cases",
+      "parent": "node_4_1585096044203",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api"
+          },
+          "result_variable": "summary"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#How_many_cases",
+      "dialog_node": "node_3_1585093908809"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593355375169",
+      "disabled": true,
+      "conditions": "#",
+      "dialog_node": "response_3_1593355593279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is all the confirmed cases I have found"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "$summary.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like the stats of a specific location?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "$summary",
+      "dialog_node": "response_1_1585095663277",
+      "previous_sibling": "node_4_1585096079466"
+    },
+    {
+      "type": "frame",
+      "title": "Location Info",
+      "parent": "node_3_1585093908809",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api",
+            "location": "$location"
+          },
+          "result_variable": "location_stats"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_4_1585096079466",
+      "previous_sibling": "slot_8_1585096407905"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I could not find any thing "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1585095664425",
+      "previous_sibling": "response_1_1585095663277"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1585093908809",
+      "variable": "$location",
+      "dialog_node": "slot_8_1585096407905"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Try again later."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1584976214871",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1584976331717",
+      "previous_sibling": "response_5_1584976331463"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584976214871",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_5_1584976331463"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Take Immunity-Boosting Foods & Vitamins\n \n\nOne may include the following immunity boosting foods for increasing immunity against Coronavirus – immunity boosting vegetables like carrot, spinach, sweet potatoes, cantaloupes, dark leafy greens, tomato, asparagus, and broccoli; and immunity boosting fruits like mango, citrus fruits, and strawberries.\n\nThese fruits & vegetables contain vitamins A, C, D, and E, and minerals like magnesium, selenium, and zinc that acts as an immunity boosting vitamins.\n\nAll the above foods are also immunity boosters for kids. Special care is required in terms of diet for older people during Coronavirus pandemic as they are prone to catching it faster.\n\n"
+              },
+              {
+                "text": "15 Foods That Boost the Immune System\n1.<a href =\"https://www.healthline.com/nutrition/citrus-fruit-benefits#:~:text=Citrus%20fruits%20are%20an%20excellent,in%20a%20day%20(6).\" target=\"_blank\">Citrus Fruits</a>\n2.<a href =\"https://www.healthline.com/nutrition/foods/bell-peppers\" target=\"_blank\">Red bell pepper</a>\n3.<a href =\"https://www.healthline.com/nutrition/foods/broccoli\" target=\"_blank\" >Broccoli</a>\n4.<a href =\"https://food.ndtv.com/food-drinks/powerhouse-of-medicine-and-flavour-surprising-health-benefits-of-garlic-1200468#:~:text=Every%20100%20grams%20of%20garlic,%2C%20potassium%2C%20sodium%20and%20zinc.\" target=\"_blank\">Garlic</a>\n5.<a href =\"healthline.com/nutrition/11-proven-benefits-of-ginger\" target=\"_blank\">Ginger</a>\n6.<a href =\"https://www.healthline.com/health/food-nutrition/foods-that-boost-the-immune-system#spinach\" target=\"_blank\">Spinach</a>\n7.<a href =\"https://www.healthline.com/nutrition/foods/yogurt\" target=\"_blank\">Yogurt</a>\n8.<a href =\"https://www.healthline.com/nutrition/9-proven-benefits-of-almonds\" target=\"_blank\">Almonds</a>\n9.<a href =\"https://www.healthline.com/nutrition/sunflower-seeds\" target=\"_blank\">Sunflower seeds</a>\n10.<a href =\"https://www.medicalnewstoday.com/articles/306981\" target=\"_blank\">Turmeric</a>\n11.<a href =\"https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-green-tea\" target=\"_blank\">Green tea</a>\n12.<a href =\"https://www.healthline.com/nutrition/8-proven-papaya-benefits\" target=\"_blank\">Papaya</a>\n13.<a href =\"https://www.healthline.com/health/7-best-things-about-kiwi\" target=\"_blank\">Kiwi</a>\n14.<a href =\"https://nutritionfacts.org/topics/poultry/\" target=\"_blank\">Poultry</a>\n15.<a href =\"https://www.healthline.com/nutrition/shellfish#:~:text=Summary%20Shellfish%20are%20low%20in,%2C%20magnesium%2C%20and%20vitamin%20B12.\" target=\"_blank\">Shellfish</a>\nSources: \n<a href=\"https://www.healthline.com\" target=\"_blank\">Healthline</a>\n<a href=\"https://food.ndtv.com\" target=\"_blank\">NDTV Food</a>\n<a href=\"https://nutritionfacts.org\" target=\"_blank\">NutritionFacts.org</a>\n<a href=\"https://www.medicalnewstoday.com\" target=\"_blank\">MedicalNewsToday.com</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "2. Take Proper 7-8 Hours of Sleep\n \n\nSleeping well is one of the easiest ways to increase immunity for COVID-19. A human body naturally repairs and recovers, during sleep, from all the wear and tear. Not sleeping enough not only leaves the body tired and lethargic but also reduces immunity to fight against viruses like COVID-19.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "3. Drink up to 8-10 glasses of water every day\n \n\nStaying hydrated is the best way to increase immunity to fight Coronavirus because it flushes out all the toxins from the body. Immunity booster drink such as fresh fruit juices and coconut water, along with consuming enough water throughout the day helps in keeping the body hydrated.\n\n \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "4. Don’t skip these home workout exercises\n \n\nHome workout exercises are another way of flushing out toxins from the body through sweat. Make sure not to skip exercises while staying home during the pandemic. Depending upon one’s stamina and routine, some of the easy workout exercises that can be done at home may include rope-skipping, push-ups, jogging on the spot, front plank, and forward lunges.\n\n "
+              },
+              {
+                "text": "Recommended Workouts"
+              },
+              {
+                "text": "1. <a href =\"https://www.chloeting.com/program/2019/two-weeks-shred-challenge.html\">CHLOE TING</a>    \n2. <a href =\"https://play.google.com/store/apps/details?id=homeworkout.homeworkouts.noequipment\">Home Workout - No Equipment</a>    \n3. <a href =\"https://play.google.com/store/apps/details?id=women.workout.female.fitness\">Female Fitness</a>\n4.<a href =\"https://play.google.com/store/apps/details?id=com.popularapp.thirtydayfitnesschallenge\">30 Day Fitness Challenge</a>\n5.<a href =\"https://play.google.com/store/apps/details?id=loseweight.weightloss.workout.fitness\">Lose Weight - Home Workout in 30 Days</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "5. Practice These 3 Steps\n \n\nStaying indoors can be boring and stressful, and stress affects both the immune system and mental well-being. To build a good mental and emotional health, along with immunity, follow these measures:\n"
+              },
+              {
+                "text": "1. Practice meditation\n<a href=\"https://www.youtube.com/watch?v=KQOAVZew5l8\">Practice meditation(Part 1)</a>\n<a href=\"https://www.youtube.com/watch?v=0eKD-mDa3CA\">Practice meditation(Part 2)</a>\n<a href=\"https://www.youtube.com/watch?v=zFotlhvCzWc\">Practice meditation(Part 3)</a>\n2. Avoid smoking and alcohol\n<a href=\"https://www.youtube.com/watch?v=zJ9ty5_Z-Lo\">How to Avoid Smoking and Alcohol</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1593312159197",
+      "conditions": "#Immunity",
+      "dialog_node": "response_3_1593313450845"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "COVID-19 can cause a number of symptoms that may appear several days after exposure. The most common symptoms are cough, fever and shortness of breath. The virus is primarily spread by respiratory droplets transmitted via close contact (within 6 feet) with an infected person, according to the Centers for Disease Control and Prevention. Respiratory droplets are produced when an infected person coughs or sneezes.\n\nThe increase in the general public buying surgical face masks has resulted in mask shortages for some health care workers. So should you wear a face mask to protect yourself from the virus, even if you're not sick?\n\n\"The current recommendations regarding masks are that if you yourself are sick with fever and cough, you can wear a surgical mask to prevent transmission to other people. If you are healthy, there is not thought to be any additional benefit to wearing a mask yourself because the mask is not airtight and does not necessarily prevent breathing in of these viral particles, which are very tiny,\" says Dr. Nipunie Rajapakse, a Mayo Clinic infectious diseases specialist.\n\n<a href=\"https://www.youtube.com/watch?v=aYFTq_xkKg0&feature=youtu.be\" target=\"_blank\">Watch: When should you wear a face mask?</a>\n\n\nJournalists: A broadcast-quality sound bite (0:27) with Dr. Rajapakse is in the downloads at the end of the post. Please courtesy \"Nipunie Rajapakse, M.D./Infectious Diseases/Mayo Clinic.\"\n\nIf you are going to a clinic or hospital to be seen by a health care provider because of concerns of cough or fever, Dr. Rajapakse recommends wearing a face mask to avoid transmitting possible infection or virus to other patients and medical staff. Face masks also are recommended for health care workers and people who are taking care of someone infected with COVID-19 in close settings (at home or in a health care facility). \n\n\"Most people who do not work in a health care setting have not received training on how to put on and take off the masks properly. Doing this incorrectly can actually increase your risk of infection. Also, people who are wearing masks tend to touch their face more than those who are not, which can paradoxically result in an increased risk of infection as well,\" says Dr. Rajapakse.\n\nShe says instead of wearing masks, people need to:\n\nWash their hands frequently using soap and water for 20 seconds or an alcohol-based hand rub.\nAvoid touching their eyes, nose and mouth.\nPractice cough etiquette. Cough into a flexed elbow or tissue, discard the tissue in the trash, and wash hands.\nStay home from school, work and public places if feeling unwell.\nCheck the <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/index.html\" target=\"_blank\">CDC website</a>  for additional updates on COVID-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Right way to wear a mask",
+            "source": "https://bloximages.newyork1.vip.townnews.com/daily-journal.com/content/tncms/assets/v3/editorial/7/0f/70f32104-a071-11ea-b868-7bad57af4f09/5ecef70f7c50c.image.jpg?resize=1200%2C897",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_11762",
+      "conditions": "@wearingmask:when",
+      "dialog_node": "response_8_1593347887314",
+      "previous_sibling": "response_9_1593346999989"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://4.imimg.com/data4/AW/TX/MY-23197770/doctor-mask-500x500.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Wearing a face mask will help prevent the spread of infection and prevent the individual from contracting any airborne infectious germs. When someone coughs, talks, sneezes they could release germs into the air that may infect others nearby. Face masks are part of an infection control strategy to eliminate cross-contamination."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Right way to wear a mask",
+            "source": "https://bloximages.newyork1.vip.townnews.com/daily-journal.com/content/tncms/assets/v3/editorial/7/0f/70f32104-a071-11ea-b868-7bad57af4f09/5ecef70f7c50c.image.jpg?resize=1200%2C897",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_11762",
+      "conditions": "@wearingmask:why",
+      "dialog_node": "response_4_1593348259838",
+      "previous_sibling": "response_8_1593347887314"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "How to wear face mask",
+            "source": "https://bloximages.newyork1.vip.townnews.com/daily-journal.com/content/tncms/assets/v3/editorial/7/0f/70f32104-a071-11ea-b868-7bad57af4f09/5ecef70f7c50c.image.jpg?resize=1200%2C897",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "How should your face mask be worn?\n\n1.Always wash your hands with soap and water before touching the face mask.\n2.Remove mask from the dispenser or box and make sure the masks do not have any holes or tears.\n3.Make sure you determine which side is the top and which is the front of the mask, so you can properly wear the mask.\n4.Face masks with ear loops: hold by the ear loops and put the loops around each ear.\n5.Face masks with ties: bring mask to your nose and place the ties over your head to secure with a tie.\n6.Face masks with bands: hold mask to your nose and pull the top strap over the crown of your head and pull the bottom strap over your head so its at the nape of your neck.\n7.Pull the mask over your mouth and chin\n"
+              },
+              {
+                "text": "<p style=\"font-family:verdana\">Video</p>\n<a href=\"https://www.youtube.com/watch?v=adB8RW4I3o4\">How to wear a medical mask</a>"
+              },
+              {
+                "text": "<a href=\"https://www.youtube.com/watch?v=eVJbenwzR1s\" target=\"_blank\">The Do’s and Don’ts of Wearing Masks and Gloves</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_11762",
+      "conditions": "@wearingmask:how",
+      "dialog_node": "response_3_1593348917864",
+      "previous_sibling": "response_4_1593348259838"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CDC does not recommend that people who are well wear a facemask to protect themselves from respiratory illnesses, including COVID-19. You should only wear a mask if a healthcare professional recommends it. A facemask should be used by people who have COVID-19 and are showing symptoms. This is to protect others from the risk of getting infected. The use of facemasks also is crucial for health workers and other people who are taking care of someone infected with COVID-19 in close settings (at home or in a health care facility)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Right way to wear a mask",
+            "source": "https://bloximages.newyork1.vip.townnews.com/daily-journal.com/content/tncms/assets/v3/editorial/7/0f/70f32104-a071-11ea-b868-7bad57af4f09/5ecef70f7c50c.image.jpg?resize=1200%2C897",
+            "response_type": "image"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11762",
+      "context": {},
+      "conditions": "@wearingmask:who",
+      "dialog_node": "response_9_1593346999989"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Key Times to Wash Hands🧼👏 \nYou can help yourself and your loved ones stay healthy by washing your hands often, especially during these key times when you are likely to get and spread germs:\n1.Before, during, and after preparing food\n2.Before eating food\n3.Before and after caring for someone at home who is sick with vomiting or diarrhea\n4.Before and after treating a cut or wound\n5.After using the toilet\n6.After changing diapers or cleaning up a child who has used the toilet\n7.After blowing your nose, coughing, or sneezing\n8.After touching an animal, animal feed, or animal waste\n9.After handling pet food or pet treats\n10.After touching garbage"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11771",
+      "conditions": "@Handwash:when",
+      "dialog_node": "response_1_1593327711087",
+      "previous_sibling": "response_2_1593326770356"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hand washing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
+              },
+              {
+                "text": "Why to use soap? What are benefits? Refer the following video:\n<a href=\"https://www.youtube.com/watch?v=-LKVUarhtvE\" target=\"_blank\">How soap kills the coronavirus</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_11771",
+      "conditions": "@Handwash:why",
+      "dialog_node": "response_2_1593326770356",
+      "previous_sibling": "response_3_1593325292652"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Wet your hands with water.\n2. Apply enough soap to cover your hands.\n3. Rub your hands together.\n4. Use 1 hand to rub the back of the other hand and clean in between the fingers. Do the same with the other hand.\n5. Rub your hands together and clean in between your fingers.\n6. Rub the back of your fingers against your palms.\n7. Rub your thumb using your other hand. Do the same with the other thumb.\n8. Rub the tips of your fingers on the palm of your other hand. Do the same with other hand.\n9. Rinse your hands with water.\n10. Dry your hands completely with a disposable towel.\n11. Use the disposable towel to turn off the tap."
+              },
+              {
+                "text": "Video to understand it in a better way:\n<a href=\"https://www.youtube.com/watch?v=IisgnbMfKvI\" target=\"_blank\">The Right Way to Wash Your Hands</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11771",
+      "context": {},
+      "conditions": "@Handwash:how",
+      "dialog_node": "response_3_1593325292652"
+    },
+    {
+      "type": "standard",
+      "title": "node_11790",
+      "output": {},
+      "parent": "node_11788",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11749"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11790",
+      "previous_sibling": "node_11789"
+    },
+    {
+      "type": "standard",
+      "title": "node_11789",
+      "output": {},
+      "parent": "node_11788",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11748"
+      },
+      "conditions": "input.text == '' && !input.button",
+      "dialog_node": "node_11789"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I don't know the answer to that yet. But I am learning new things all the time."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11749",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1585074744879",
+      "previous_sibling": "response_10_1585074743918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I don't know the answer to that yet.  $webhook_result_2.result"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11749",
+      "context": {},
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_10_1585074743918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Free TextBooks:\n1.<a href=\"http://gen.lib.rus.ec\" target=\"_blank\">Library Genesis</a>\n2.<a href=\"https://bookboon.com\" target=\"_blank\">Bookboon.com</a>\n3.<a href=\"free.ebooks.net\" target=\"_blank\">Free-Ebooks.net</a>\n4.<a href=\"http://freecomputerbooks.com\" target=\"_blank\">Free Computer Books</a>\n5.<a href=\"http://srv.manybooks.net\" target=\"_blank\">ManyBooks</a>\n6.<a href=\"http://calameo.pdf-downloader.com/index.php\" target=\"_blank\">CALAMEO PDF DOWNLOADER</a>\n7.<a href=\"https://archive.org\" target=\"_blank\">Internet Archive</a>\n8.<a href=\"https://openstax.org\" target=\"_blank\">Openstax</a>\n\nSource: <a href=\"https://lightpdf.com\" target=\"_blank\">LightPdf.com</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593378007558",
+      "conditions": "@book:book",
+      "dialog_node": "response_10_1593403914215",
+      "previous_sibling": "response_5_1593403823730"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "These free courses may help you:\n1.<a https://www.linkedin.com/learning/me?trk=aff_src.aff-lilpar_c.partners_pkw.1962309_plc.skillscouter_pcrid.449670_learning target=\"_blank\">Lynda/ LinkedIn Learning</a>\n2. <a href=\"https://www.udemy.com/?ranMID=39197&ranEAID=PGgEE4IBqrs&ranSiteID=PGgEE4IBqrs-A.jsxbofeMNU_VffAn.img&LSNPUBID=PGgEE4IBqrs&utm_source=aff-campaign&utm_medium=udemyads \"target=\"_blank\">Udemy </a>(Great For Marketing/ Design).\n3. <a href=\"https://alison.com\" target=\"_blank\">Alison</a>(Great For IT, Science, Coding).\n4. <a href=\"https://learndigital.withgoogle.com/digitalgarage\" target=\"_blank\">Google Digital Garage</a>(Best For Digital Marketing).\n5.<a href=\"https://www.oxfordhomestudy.com/free-online-courses-with-certificates\" target=\"_blank\">Oxford Home Study</a> (Great For Management).\n6.<a href=\"https://www.openlearning.com/courses\" target=\"_blank\">Openlearning</a>(University Quality Learning).\n7.<a href=\"https://docs.microsoft.com/en-us/learn\" target=\"_blank\">Microsoft Learn</a>(Great For Microsoft Related Jobs).\n8.<a href=\"https://www.pluralsight.com/?clickid=WKyR7jRooxyOTGFwUx0Mo3Q1Ukiy96xAZ2nXQE0&irgwc=1&mpid=2283845&utm_source=impactradius&utm_medium=digital_affiliate&utm_campaign=2283845&aid=7010a000001xAKZAA2\" target=\"_blank\">Pluralsight</a>(Great For Developers).\n9.<a href=\"https://www.facebookblueprint.com/student/catalog\" target=\"_blank\">Facebook Blueprint</a>(Digital Marketing With FB).\n10.<a href=\"https://www.saylor.org/\" target=\"_blank\">Saylor.org</a>.\n11.<a href=\"https://www.freecodecamp.org\" target=\"_blank\"> Free Code Camp</a>(Great For Learning To Code).\n\n\nSource: <a href=\"https://skillscouter.com\" target=\"_blank\">Skillscouter.com</a>\n\n\n"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593378007558",
+      "conditions": "@book:Courses",
+      "dialog_node": "response_5_1593403823730"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What location (Country/Country Code/US State) would you like the stats for?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1585096776672",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1585096776761",
+      "previous_sibling": "handler_2_1585096776761"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1585096776672",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_2_1585096776761"
+    },
+    {
+      "type": "standard",
+      "title": "Person to Person Spread",
+      "output": {
+        "text": {
+          "values": [
+            "People can catch COVID-19 from others who have the virus. The\ndisease can spread from person to person through small droplets from\nthe nose or mouth which are spread when a person with COVID-19\ncoughs or exhales. These droplets land on objects and surfaces\naround the person. Other people then catch COVID-19 by touching\nthese objects or surfaces, then touching their eyes, nose or mouth.\nPeople can also catch COVID-19 if they breathe in droplets from a\nperson with COVID-19 who coughs out or exhales droplets. This is\nwhy it is important to stay more than 1 meter (3 feet) away from a\nperson who is sick. "
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PersonToPerson && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11755",
+      "previous_sibling": "node_11754"
+    },
+    {
+      "type": "standard",
+      "title": "Can it spread via food?",
+      "output": {
+        "text": {
+          "values": [
+            "Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.  "
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#spreadviafood && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11757",
+      "previous_sibling": "node_11756"
+    },
+    {
+      "type": "standard",
+      "title": "Warmer Weather Mitigation",
+      "output": {
+        "text": {
+          "values": [
+            "It is not yet known whether weather and temperature impact the spread of COVID-19. Some other viruses, like the common cold and flu, spread more during cold weather months but that does not mean it is impossible to become sick with these viruses during other months. At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer. There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#warmerweather && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11758",
+      "previous_sibling": "node_11757"
+    },
+    {
+      "type": "standard",
+      "title": "Career options",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Career Options:\n<a href=\"https://www.incomediary.com/biggest-blogging-benefits\"target=\"_blank\">Blogging</a> \n<a href=\"https://www.highspeedtraining.co.uk/hub/benefits-of-online-training/#:~:text=As%20long%20as%20they%20have,arranging%20development%20opportunities%20far%20easier.\"target=\"_blank\">Online training and education</a> \n<a href=\"https://www.happiness.com/en/magazine/personal-growth/why-volunteering-is-important-benefits/\"target=\"_blank\">Volunteering</a> \n<a href=\"https://www.theecologycenter.org/10-ways-urban-farms-benefit-the-community/\"target=\"_blank\">Farming at home</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#CareerOptions",
+      "dialog_node": "node_8_1593355375169",
+      "previous_sibling": "node_9_1593348716698"
+    },
+    {
+      "type": "standard",
+      "title": "Can I attend funerals?",
+      "output": {
+        "text": {
+          "values": [
+            "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#AttendingFuneral && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11781",
+      "previous_sibling": "node_11780"
+    },
+    {
+      "type": "standard",
+      "title": "Helpline",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Central Helpline Number for corona-virus: - +91-11-23978046\nHelpline Numbers of States \n1. Andhra Pradesh :0866-2410978\n2. Arunachal Pradesh:9436055743\n3. Assam: 6913347770\n4. Bihar :104\n5. Chhattisgarh :104\n6. Goa :104\n7. Gujarat :104\n8. Haryana :8558893911\n9. Himachal Pradesh :104\n10. Jharkhand :104\n11. Karnataka :104\n12. Kerala :0471-2552056\n13. Madhya Pradesh :104\n14. Maharashtra :020-26127394\n15. Manipur :3852411668\n16. Meghalaya :108\n17. Mizoram :102\n18. Nagaland :7005539653\n19. Odisha :9439994859\n20. Punjab :104\n21. Rajasthan: 0141-2225624\n22. Sikkim: 104\n23. Tamil Nadu: 044-29510500\n24. Telangana: 104\n25. Tripura: 0381-2315879\n26. Uttarakhand: 104\n27. Uttar Pradesh: 18001805145\n28. West Bengal: 1800313444222, 03323412600, \nHelpline Numbers of Union Territories (UTs)\n1. Andaman and NicobarIslands: 03192-232102\n2. Chandigarh: 9779558282\n3. Dadra and Nagar Haveli and Daman & Diu: 104\n4. Delhi: 011-22307145\n5. Jammu & Kashmir: 01912520982, 0194-2440283\n6. Ladakh: 01982256462\n7. Lakshadweep: 104\n8. Puducherry: 104"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Helpline",
+      "dialog_node": "node_2_1593454182678",
+      "previous_sibling": "node_3_1593403252255"
+    },
+    {
+      "type": "standard",
+      "title": "Infected Family Member",
+      "output": {
+        "text": {
+          "values": [
+            "Most people who get COVID-19 will be able to recover at home. CDC has directions for people who are recovering at home and their caregivers, including: Stay home when you are sick, except to get medical care. If you develop emergency warning signs for COVID-19 get medical attention immediately . Emergency warning signs include: Trouble breathing, Persistent pain or pressure in the chest, New confusion or inability to arouse, Bluish lips or face.  This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning. Use a separate room and bathroom for sick household members (if possible). Clean hands regularly by hand washing with soap and water or using an alcohol-based hand sanitizer with at least 60% alcohol. Provide your sick household member with clean disposable face masks to wear at home, if available, to help prevent spreading COVID-19 to others. Clean the sick room and bathroom , as needed, to avoid unnecessary contact with the sick person. Avoid sharing personal items like utensils, food, and drinks."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#InfectedFamilyMember && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11770",
+      "previous_sibling": "node_11769"
+    },
+    {
+      "type": "standard",
+      "title": "School Closing Information",
+      "output": {
+        "text": {
+          "values": [
+            "Depending on the situation, public health officials may recommend community actions to reduce exposures to COVID-19, such as school dismissals. Read or watch local media sources that report school dismissals or and watch for communication from your child’s school. If schools are dismissed temporarily, discourage students and staff from gathering or socializing anywhere, like at a friend’s house, a favorite restaurant, or the local shopping mall."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#schoolclosing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11774",
+      "previous_sibling": "node_11773"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "text": {
+          "values": [
+            "Goodbye,Take Care!",
+            "See you,Stay Safe Out There",
+            "Adios,Stay home,Stay safe!!",
+            "Bye,Stay healthy",
+            "Bye,don't forget to keep yourself clean. "
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "#goodbyes && intents[0].confidence > 0.95",
+      "dialog_node": "node_11791",
+      "previous_sibling": "node_11748"
+    },
+    {
+      "type": "standard",
+      "title": "node_11750",
+      "output": {
+        "text": {
+          "values": [
+            "Did you mean:",
+            "You seem to be asking about: ",
+            "I think you were asking about:"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "buttons": [
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][0].intent ?>"
+          },
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][1].intent ?>"
+          },
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][2].intent ?>"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "intents.size() > 0 && (intents[0].confidence < $low_confidence && intents[0].confidence > $out_of_bounds)",
+      "dialog_node": "node_11750",
+      "previous_sibling": "node_8_1585238958758"
+    },
+    {
+      "type": "standard",
+      "title": "Reduce Family Risk",
+      "output": {
+        "text": {
+          "values": [
+            "Practice everyday preventive actions to help reduce your risk of getting sick and remind everyone in your home to do the same. These actions are especially important for older adults and people who have severe chronic medical conditions: Avoid close contact with people who are sick. Cover your coughs and sneezes with a tissue and throw the tissue in the trash. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty. Clean and disinfect frequently touched surfaces and objects (e.g., tables, countertops, light switches, doorknobs, and cabinet handles)."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ReduceFamilyRisk && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11769",
+      "previous_sibling": "node_11768"
+    },
+    {
+      "type": "standard",
+      "title": "Family Preparation",
+      "output": {
+        "text": {
+          "values": [
+            "Create a household plan of action to help protect your health and the health of those you care about in the event of an outbreak of COVID-19 in your community: Talk with the people who need to be included in your plan, and discuss what to do if a COVID-19 outbreak occurs in your community Plan ways to care for those who might be at greater risk for serious complications, particularly older adults and those with severe chronic medical conditions like heart, lung or kidney disease. Make sure they have access to several weeks of medications and supplies in case you need to stay home for prolonged periods of time. Get to know your neighbors and find out if your neighborhood has a website or social media page to stay connected. Create a list of local organizations that you and your household can contact in the event you need access to information, healthcare services, support, and resources. Create an emergency contact list of family, friends, neighbors, carpool drivers, health care providers, teachers, employers, the local public health department, and other community resources."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PrepareFamily && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11768",
+      "previous_sibling": "node_11767"
+    },
+    {
+      "type": "standard",
+      "title": "Handwashing tips and Guidance",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#HandwashingTips",
+      "dialog_node": "node_11771",
+      "previous_sibling": "node_11770"
+    },
+    {
+      "type": "standard",
+      "title": "Community Spread",
+      "output": {
+        "text": {
+          "values": [
+            "Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#CommunitySpread && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11759",
+      "previous_sibling": "node_11758"
+    },
+    {
+      "type": "standard",
+      "title": "Higher Risk Populations",
+      "output": {
+        "text": {
+          "values": [
+            "Older adults and people of any age who have serious underlying medical conditions may be at higher risk for more serious complications from COVID-19. Based upon available information to date, those most at risk include People 65 years and older, People who live in a nursing home or long-term care facility, People of any age with the following underlying medical conditions, particularly those that are not well controlled, Chronic lung disease or asthma, Congestive heart failure or coronary artery disease, Diabetes, Neurological conditions that weaken ability to cough, Weakened immune system, Chemotherapy or radiation for cancer (currently or in recent past), Sickle cell anemia, Chronic kidney disease requiring dialysis, Cirrhosis of the liver, Lack of spleen or a spleen that doesn’t function correctly, Extreme obesity (body mass index [BMI] > 40), People who are pregnant."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HigherRiskPopulations && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11761",
+      "previous_sibling": "node_11759"
+    },
+    {
+      "type": "standard",
+      "title": "Preparing and Calming Children",
+      "output": {
+        "text": {
+          "values": [
+            "Outbreaks can be stressful for adults and children. Talk with your children about the outbreak, try to stay calm, and reassure them that they are safe. If appropriate, explain to them that most illness from COVID-19 seems to be mild. Children respond differently to stressful situations than adults."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PreparingChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11773",
+      "previous_sibling": "node_11772"
+    },
+    {
+      "type": "standard",
+      "title": "Workplace Face Coverings",
+      "output": {
+        "text": {
+          "values": [
+            "Wear cloth face coverings in public settings where other social distancing measures are difficult to maintain, especially in areas of significant community transmission. Employees should continue to follow their routine policies and procedures for PPE (if any) that they would ordinarily use for their job tasks."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#WorkplaceFaceCoverings && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11795",
+      "previous_sibling": "node_11794"
+    },
+    {
+      "type": "standard",
+      "title": "Child socialization",
+      "output": {
+        "text": {
+          "values": [
+            "The key to slowing the spread of COVID-19 is to limit social interactions as much as possible. Parents should minimize play dates, and if held, parents should keep the groups small. Advise older children to hang out in a small group and to meet up outside rather than inside. It’s easier to keep and maintain space between others in outdoor settings, like parks. If you have small meetups, consider hanging out with another family or friend who is also taking extra measures to put distance between themselves and others (i.e. social distancing). Make sure children practice everyday preventive behaviors , such as cleaning and then disinfecting frequently touched surfaces. Remember, if children meet outside of school in bigger groups, it can put everyone at risk. This includes spring break and other group travel. Parents should help their older children revise spring break plans that included non-essential travel to crowded areas. Information about COVID-19 in children is somewhat limited, but current data suggest children with COVID-19 may show only mild symptoms. However, they can still pass this virus onto others who may be at higher risk, including older adults and people who have serious chronic medical conditions"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ChildrenSocializing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11785",
+      "previous_sibling": "node_11784"
+    },
+    {
+      "type": "standard",
+      "title": "CDC Guidance and Response",
+      "output": {
+        "text": {
+          "values": [
+            "This is an emerging, rapidly evolving situation and CDC will continue to provide updated information as it becomes available. CDC works 24/7 to protect people’s health.  For CDC guidance please visit: https://www.cdc.gov/coronavirus/2019-nCoV/index.html"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#CDC_Response && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11782",
+      "previous_sibling": "node_11781"
+    },
+    {
+      "type": "standard",
+      "title": "How does it Spread",
+      "output": {
+        "text": {
+          "values": [
+            "This virus was first detected in Wuhan City, Hubei Province, China. The first infections were linked to a live animal market, but the virus is now spreading from person-to-person. It’s important to note that person-to-person spread can happen on a continuum. Some viruses are highly contagious (like measles), while other viruses are less so. The virus that causes COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in some affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HowDoesItSpread && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11753",
+      "previous_sibling": "node_11752"
+    },
+    {
+      "type": "standard",
+      "title": "Risk to Children",
+      "output": {
+        "text": {
+          "values": [
+            "Based on available evidence, children do not appear to be at higher risk for COVID-19 than adults. While some children and infants have been sick with COVID-19, adults make up most of the known cases to date. You can learn more about who is most at risk for health problems if they have COVID-19 infection on CDC’s current Risk Assessment page."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#RiskToChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11764",
+      "previous_sibling": "node_11763"
+    },
+    {
+      "type": "standard",
+      "title": "ExposedPeople",
+      "output": {
+        "text": {
+          "values": [
+            "Employees may have been exposed if they are a “close contact” of someone who infected, which is defined as being within approximately 6 feet (2 meters) of a person with COVID-19 for a prolonged period of time. Potentially exposed employees who have symptoms of COVID-19 should self-isolate and follow CDC recommended steps."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ExposedEmployees && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11802",
+      "previous_sibling": "node_11801"
+    },
+    {
+      "type": "standard",
+      "title": "Latest News on Covid19",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api",
+            "country": "US"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#News_Corona_Virus",
+      "dialog_node": "node_2_1584976214871",
+      "previous_sibling": "node_4_1585096044203"
+    },
+    {
+      "type": "standard",
+      "title": "Vaccine updates",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can know latest updates about vaccines here:\n<a href=\"https://www.raps.org/news-and-articles/news-articles/2020/3/covid-19-vaccine-tracker\" target=\"_blank\">COVID-19 vaccine tracker</a>\n\nSource: <a href=\"https://www.raps.org/website/covid-19-resources\" target=\"_blank\">RAPS.org</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#VaccineUpdates",
+      "dialog_node": "node_5_1593374305604",
+      "previous_sibling": "node_8_1593355375169"
+    },
+    {
+      "type": "standard",
+      "title": "What is Covid19?",
+      "output": {
+        "text": {
+          "values": [
+            "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold. A diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnosis."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#WhatisCovid && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11751",
+      "previous_sibling": "node_2_1584976214871"
+    },
+    {
+      "type": "standard",
+      "title": "Employee Tests Positive",
+      "output": {
+        "text": {
+          "values": [
+            "If the sick employee used the facility less than 7 days ago, clean and disinfect all areas used by the sick employee following the CDC cleaning and disinfection recommendations."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#EmployeeTestsPositive && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11792",
+      "previous_sibling": "node_11787"
+    },
+    {
+      "type": "standard",
+      "title": "Negative Test Result Considerations",
+      "output": {
+        "text": {
+          "values": [
+            "Using the CDC-developed diagnostic test, a negative result means that the virus that causes COVID-19 was not found in the person’s sample. In the early stages of infection, it is possible the virus will not be detected. For COVID-19, a negative test result for a sample collected while a person has symptoms likely means that the COVID-19 virus is not causing their current illness."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#NegativeTestResults && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11778",
+      "previous_sibling": "node_11777"
+    },
+    {
+      "type": "standard",
+      "title": "Should I wear face masks?",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Wearingfacemasks",
+      "dialog_node": "node_11762",
+      "previous_sibling": "node_11761"
+    },
+    {
+      "type": "standard",
+      "title": "Risk to Pets",
+      "output": {
+        "text": {
+          "values": [
+            "While this virus seems to have emerged from an animal source, it is now spreading from person-to-person. There is no reason to think that any animals including pets in the United States might be a source of infection with this new coronavirus. To date, CDC has not received any reports of pets or other animals becoming sick with COVID-19. At this time, there is no evidence that companion animals including pets can spread COVID-19. However, since animals can spread other diseases to people, it’s always a good idea to wash your hands after being around animals."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#RiskToPets && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11783",
+      "previous_sibling": "node_11782"
+    },
+    {
+      "type": "standard",
+      "title": "node_11749",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11749",
+      "previous_sibling": "node_11750"
+    },
+    {
+      "type": "standard",
+      "title": "Books and Courses",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ETextbooks",
+      "dialog_node": "node_3_1593378007558",
+      "previous_sibling": "node_5_1593374305604"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms of COVID19",
+      "output": {
+        "text": {
+          "values": [
+            "Current symptoms reported for patients with COVID-19 have included mild to severe respiratory illness with fever , cough, and difficulty breathing."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Symptoms && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11776",
+      "previous_sibling": "node_11775"
+    },
+    {
+      "type": "standard",
+      "title": "Prevention",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following are the ways suggested by CDC to protect ourselves from coronavirus"
+              },
+              {
+                "text": "<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html\" target=\"_blank\">How COVID-19 Spreads</a>\n<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html\" target=\"_blank\">Protect Yourself</a>\n<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html\" target=\"_blank\">Cloth Face Covers</a>\n<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/gloves.html\" target=\"_blank\">Wearing Gloves</a>\n<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/gloves.html\" target=\"_blank\">Cleaning Your Home</a>\n<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html\" target=\"_blank\">Social Distancing</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Prevention",
+      "dialog_node": "node_9_1593348716698",
+      "previous_sibling": "node_10_1593312159197"
+    },
+    {
+      "type": "standard",
+      "title": "Staying Home When Sick",
+      "output": {
+        "text": {
+          "values": [
+            "People who develop symptoms outside of work should notify their supervisor and stay home. People who have symptoms when they arrive at work or become sick during the day should immediately be separated from other employees, customers, and visitors and sent home."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#StayingHomeWhenSick && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11801",
+      "previous_sibling": "node_11800"
+    },
+    {
+      "type": "standard",
+      "title": "Student and School Meals",
+      "output": {
+        "text": {
+          "values": [
+            "Check with your school on plans to continue meal services during the school dismissal. Many schools are keeping school facilities open to allow families to pick up meals or are providing grab-and-go meals at a central location."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#MealsForStudents && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11787",
+      "previous_sibling": "node_11786"
+    },
+    {
+      "type": "standard",
+      "title": "Testing Information",
+      "output": {
+        "text": {
+          "values": [
+            "If you develop symptoms such as fever, cough, and/or difficulty breathing, and have been in close contact with a person known to have COVID-19 or have recently traveled from an area with ongoing spread of COVID-19, stay home and call your healthcare provider. Older patients and individuals who have severe underlying medical conditions or are immuno compromised should contact their healthcare provider early, even if their illness is mild. If you have severe symptoms, such as persistent pain or pressure in the chest, new confusion or inability to arouse, or bluish lips of face, contact your healthcare provider or emergency room and seek care immediately. Your doctor will determine if you have signs and symptoms of COVID-19 and whether you should be tested."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Testing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11777",
+      "previous_sibling": "node_11776"
+    },
+    {
+      "type": "standard",
+      "title": "What is Quarantine",
+      "output": {
+        "text": {
+          "values": [
+            "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#spreadinquarantine && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11756",
+      "previous_sibling": "node_11755"
+    },
+    {
+      "type": "standard",
+      "title": "What symptoms are shown in Children?",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms of COVID-19 are similar in children and adults. However, children with confirmed COVID-19 have generally presented with mild symptoms. Reported symptoms in children include cold-like symptoms, such as fever, runny nose, and cough. Vomiting and diarrhea have also been reported. It’s not known yet whether some children may be at higher risk for severe illness, for example, children with underlying medical conditions and special healthcare needs. There is much more to be learned about how the disease impacts children."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "These are the following symptoms",
+            "source": "https://i2.wp.com/outoftownblog.com/wp-content/uploads/2020/01/CoV-infographics-elements-human-are-showing-coronavirus-symptoms-and-risk-factors.-health-and-medical.-Novel-Coronavirus.jpg?resize=700%2C504&ssl=1",
+            "response_type": "image"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Symptomsinchildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11766",
+      "previous_sibling": "node_11765"
+    },
+    {
+      "type": "standard",
+      "title": "Employee Shows Symptoms",
+      "output": {
+        "text": {
+          "values": [
+            "In most cases, you do not need to shut down your facility. But do close off any areas used for prolonged periods of time by the sick person. Wait 24 hours before cleaning and disinfecting to minimize potential for other employees being exposed to respiratory droplets."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#EmployeeShowsSymptoms && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11793",
+      "previous_sibling": "node_11792"
+    },
+    {
+      "type": "standard",
+      "title": "Data Disclaimer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This bot is populated with data sourced from the following resources:\n\nMost static responses provide information found on the CDC's Covid FAQ Page: https://www.cdc.gov/coronavirus/2019-ncov/faq.html\n\nDynamic infection and death counts are sourced from Johns Hopkins University via the following API: https://www.covid19api.com/\n\nDynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/\nFor other videos to provide information on Covid-19 you can follow this channel on YouTube: \n\nThe helpline numbers were taken from the  following website:\nhttps://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf.\n\n For tracking about vaccines and other information you can visit the below website:\nhttps://www.raps.org/website/covid-19-resources"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "(#DataSource && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_8_1585238958758",
+      "previous_sibling": "node_2_1593454182678"
+    },
+    {
+      "type": "standard",
+      "title": "Products and Packages from China",
+      "output": {
+        "text": {
+          "values": [
+            "There is still a lot that is unknown about the newly emerged COVID-19 and how it spreads. Two other coronaviruses have emerged previously to cause severe illness in people (MERS-CoV and SARS-CoV). The virus that causes COVID-19 is more genetically related to SARS-CoV than MERS-CoV, but both are betacoronaviruses with their origins in bats. While we don’t know for sure that this virus will behave the same way as SARS-CoV and MERS-CoV, we can use the information gained from both of these earlier coronaviruses to guide us. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from products or packaging that are shipped over a period of days or weeks at ambient temperatures. Coronaviruses are generally thought to be spread most often by respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with imported goods and there have not been any cases of COVID-19 in the United States associated with imported goods. Information will be provided on the Coronavirus Disease 2019 (COVID-19) website as it becomes available."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ProductsFromChina && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11763",
+      "previous_sibling": "node_11762"
+    },
+    {
+      "type": "standard",
+      "title": "Disinfecting Surfaces",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#DisinfectingSurfaces",
+      "dialog_node": "node_11772",
+      "previous_sibling": "node_11771"
+    },
+    {
+      "type": "standard",
+      "title": "Advice on Home Schooling",
+      "output": {
+        "text": {
+          "values": [
+            "Stay in touch with your child’s school. Many schools are adapting in-person lessons to online or virtual learning. Review assignments from the school, and help your child establish a reasonable pace for completing the work. You may need to assist your child with turning on devices, reading instructions, and typing answers. Communicate challenges to your school. If you face technology or connectivity issues, or if your child is having a hard time completing assignments, let the school know. Create a schedule and routine for learning at home, but remain flexible. Have consistent bedtimes and get up at the same time, Monday through Friday. Structure the day for learning, free time, healthy meals and snacks, and physical activity. Allow flexibility in the schedule—it’s okay to adapt based on your day. Consider the needs and adjustment required for your child’s age group. The transition to being at home will be different for preschoolers, K-5, middle school students, and high school students. Talk to your child about expectations and how they are adjusting to being at home versus at school. Consider ways your child can stay connected with their friends without spending time in person. Look for ways to make learning fun. Have hands-on activities, like puzzles, painting, drawing, and making things. Independent play can also be used in place of structured learning. Encourage children to build a fort from sheets or practice counting by stacking blocks. Practice handwriting and grammar by writing letters to family members. This is a great way to connect and limit face-to-face contact. Start a journal with your child to document this time and discuss the shared experience. Use audio books or see if your local library is hosting virtual or live-streamed reading events."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Schoolfromhome && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11786",
+      "previous_sibling": "node_11785"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I’m CoBot . Hope you're safe and healthy, I'm here to give you information about COVID-19,Career options and websites for free textbooks and courses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#greeting && intents[0].confidence > 0.95",
+      "dialog_node": "node_11748",
+      "previous_sibling": "node_11788"
+    },
+    {
+      "type": "standard",
+      "title": "Staying Safe at Work",
+      "output": {
+        "text": {
+          "values": [
+            "To keep your employees safe, you should: - Consider options to increase physical space between employees and customers such as opening a drive- through, erecting partitions, and marking floors to guide spacing at least six feet apart. - Use hand sanitizer that contains at least 60% alcohol if soap and water are not available."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#StayingSafeAtWork && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11794",
+      "previous_sibling": "node_11793"
+    },
+    {
+      "type": "standard",
+      "title": "Workplace Social Distancing",
+      "output": {
+        "text": {
+          "values": [
+            "Social Distancing Strategies that businesses could use include: - Allowing flexible worksites (such as telework) - Allowing flexible work hours (such as staggered shifts) - Increasing physical space between employees at the worksite - Increasing physical space between employees and customers (such as a drive-through and partitions) - Implementing flexible meeting and travel options (such as postponing non-essential meetings or events) - Downsizing operations - Delivering services remotely (e.g., phone, video, or web) - Delivering products through curbside pick-up or delivery"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#WorkplaceSocialDistancing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11796",
+      "previous_sibling": "node_11795"
+    },
+    {
+      "type": "standard",
+      "title": "Children and Face Masks",
+      "output": {
+        "text": {
+          "values": [
+            "If your child is healthy, there is no need for them to wear a facemask. Only people who have symptoms of illness or who are providing care to those who are ill should wear masks."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ChildrenAndFaceMasks && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11767",
+      "previous_sibling": "node_11766"
+    },
+    {
+      "type": "standard",
+      "title": "Protecting Children from COVID",
+      "output": {
+        "text": {
+          "values": [
+            "You can encourage your child to help stop the spread of COVID-19 by teaching them to do the same things everyone should do to stay healthy. Clean hands often using soap and water or alcohol-based hand sanitizer Avoid people who are sick (coughing and sneezing) Clean and disinfect high-touch surfaces daily in household common areas (e.g. tables, hard-backed chairs, doorknobs, light switches, remotes, handles, desks, toilets, sinks) Launder items including washable plush toys as appropriate in accordance with the manufacturer’s instructions. If possible, launder items using the warmest appropriate water setting for the items and dry items completely. Dirty laundry from an ill person can be washed with other people’s items. You can find additional information on preventing COVID-19 at Prevention for 2019 Novel Coronavirus and at Preventing COVID-19 Spread in Communities . Additional information on how COVID-19 is spread is available by asking How COVID-19 Spreads"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ProtectingChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11765",
+      "previous_sibling": "node_11764"
+    },
+    {
+      "type": "folder",
+      "title": "api",
+      "dialog_node": "node_4_1585096044203",
+      "previous_sibling": "node_11791"
+    },
+    {
+      "type": "standard",
+      "title": "Naming of Virus",
+      "output": {
+        "text": {
+          "values": [
+            "On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”. There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused be a novel (or new) coronavirus that has not previously been seen in humans. The name of this disease was selected following the World Health Organization (WHO) best practice for naming of new human infectious diseases."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Whythename && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11752",
+      "previous_sibling": "node_11751"
+    },
+    {
+      "type": "standard",
+      "title": "Health Dept Recommended Actions",
+      "output": {
+        "text": {
+          "values": [
+            "For recommendations and guidance on persons under investigation; infection control, including personal protective equipment guidance; home care and isolation; and case investigation, ask this chatbot about Information for Healthcare Professionals . For information on specimen collection and shipment, ask this chatbot about Information for Laboratories. For information for public health professional on COVID-19, ask this chatbot about Information for Public Health Professionals."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HealthDeptRecommendedActions && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11780",
+      "previous_sibling": "node_11779"
+    },
+    {
+      "type": "standard",
+      "title": "Disinfection with sick people at home",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hope this video below helps you:\n<a href=\"https://www.youtube.com/watch?v=SYEk4b6uKcM\" target=\"_blank\">How to Clean and Disinfect Your Home if Someone has COVID-19</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#DisinfectionofHomeWithSickPeople",
+      "dialog_node": "node_3_1593403252255",
+      "previous_sibling": "node_3_1593378007558"
+    },
+    {
+      "type": "standard",
+      "title": "Additional Workplace Hygiene",
+      "output": {
+        "text": {
+          "values": [
+            "Employers can also: - Provide tissues and no-touch disposal receptacles. - Provide soap and water in the workplace. - Place hand sanitizer in multiple locations to encourage good hand hygiene practices. - Place posters that encourage staying home when sick, the importance of hand hygiene, and coughing and sneezing etiquette at the entrance to your workplace and in other workplace areas where employees are likely to see them. - Discourage handshaking."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#AdditionalWorkplaceHygiene && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11799",
+      "previous_sibling": "node_11798"
+    },
+    {
+      "type": "standard",
+      "title": "Animal Contact",
+      "output": {
+        "text": {
+          "values": [
+            "You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the virus. When possible, have another member of your household care for your animals while you are sick. If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food. If you must care for your pet or be around animals while you are sick, wash your hands before and after you interact with pets and wear a face mask."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#AnimalContact && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11784",
+      "previous_sibling": "node_11783"
+    },
+    {
+      "type": "standard",
+      "title": "Document Employee Illness",
+      "output": {
+        "text": {
+          "values": [
+            "Employers should not require sick employees to provide a COVID-19 test result or a healthcare provider’s note to validate their illness, qualify for sick leave, or to return to work. Healthcare provider offices and medical facilities may be extremely busy and not able to provide such documentation in a timely manner."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#DocumentEmployeeIllness && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11797",
+      "previous_sibling": "node_11796"
+    },
+    {
+      "type": "standard",
+      "title": "Where did it originate?",
+      "output": {
+        "text": {
+          "values": [
+            "Coronaviruses are a large family of viruses. Some cause illness in people, and others, such as canine and feline coronaviruses, only infect animals. Rarely, animal coronaviruses that infect animals have emerged to infect people and can spread between people. This is suspected to have occurred for the virus that causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS) are two other examples of coronaviruses that originated from animals and then spread to people. More information about the source and spread of COVID-19 ask this chatbot how does the virus spread."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Wherediditstart && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11754",
+      "previous_sibling": "node_11753"
+    },
+    {
+      "type": "standard",
+      "title": "Disinfecting the Workplace",
+      "output": {
+        "text": {
+          "values": [
+            "First clean dirty surfaces with soap and water. Second, disinfect surfaces using a cleaner appropriate for the surface. If machinery or equipment are thought to be contaminated and cannot be cleaned, they can be isolated."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#DisinfectingTheWorkplace && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11798",
+      "previous_sibling": "node_11797"
+    },
+    {
+      "type": "standard",
+      "title": "Critical Businesses",
+      "output": {
+        "text": {
+          "values": [
+            "State and local officials should have developed a list of essential critical infrastructure workers to help state and local officials as they work to protect their communities, while ensuring continuity of functions critical to public health and safety as well as economic and national security."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/general-business-faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#CriticalBusinesses && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11800",
+      "previous_sibling": "node_11799"
+    },
+    {
+      "type": "standard",
+      "title": "Info about Stigmatized Groups",
+      "output": {
+        "text": {
+          "values": [
+            "People in the U.S. may be worried or anxious about friends and relatives who are living in or visiting areas where COVID-19 is spreading. Some people are worried about the disease. Fear and anxiety can lead to social stigma, for example, towards Chinese or other Asian Americans or people who were in quarantine. Stigma is discrimination against an identifiable group of people, a place, or a nation. Stigma is associated with a lack of knowledge about how COVID-19 spreads, a need to blame someone, fears about disease and death, and gossip that spreads rumors and myths. Stigma hurts everyone by creating more fear or anger towards ordinary people instead of the disease that is causing the problem."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Stigmatizedgroups && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11779",
+      "previous_sibling": "node_11778"
+    },
+    {
+      "type": "standard",
+      "title": "Guidance on going in to work",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Follow the advice of your local health officials. Stay home if you can. Talk to your employer to discuss working from home, taking leave if you or someone in your household gets sick with COVID-19 symptoms , or if your child’s school is dismissed temporarily. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak.\n<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/community/guidance-business-response.html\">Guidance on going in to work</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ReportingToWork && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11775",
+      "previous_sibling": "node_11774"
+    },
+    {
+      "type": "standard",
+      "title": "Immunity",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Immunity",
+      "dialog_node": "node_10_1593312159197",
+      "previous_sibling": "node_11802"
+    },
+    {
+      "type": "standard",
+      "title": "#Set confidence thresholds",
+      "output": {},
+      "context": {
+        "out_of_bounds": 0.2,
+        "low_confidence": 0.45
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11789"
+      },
+      "conditions": "conversation_start",
+      "dialog_node": "node_11788"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "india"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "enabled": false,
+      "randomize": true,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": true,
+  "name": "CDC COVID FAQ",
+  "language": "en",
+  "description": ""
+}
